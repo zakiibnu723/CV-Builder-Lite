@@ -1,0 +1,49 @@
+.userInputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+  flex-basis: 25%;
+  padding: 2vw;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: scroll;
+
+
+  .inputSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+
+    & h1 {
+      font-size: 1.5vw;
+      font-weight: 600;
+    }
+
+    .inputs {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 1.4vw;
+      row-gap: 1.6vh;
+
+      & label {
+        font-size: 1.2vw;
+      }
+
+      & textarea, input {
+        width: 19vw;
+        margin-top: 3px;
+        font-size: 1.2vw;
+        border: none;
+        padding: 0.6vw;
+        box-sizing: border-box;
+        background-color: rgb(241, 241, 241);
+        
+      }
+
+      & textarea {
+        height: 100px;
+      }
+    }
+  } 
+}

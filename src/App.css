@@ -1,0 +1,22 @@
+.mainContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+/* 
+@media only screen and (max-width: 767px) {
+  .mainContainer {
+    flex-direction: column-reverse;
+    
+    .userInputContainer {
+      height: 50vh;
+    }
+
+    .resultContainer {
+      height: 50vh;
+    }
+  }
+} */
